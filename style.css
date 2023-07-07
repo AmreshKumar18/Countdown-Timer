@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ysabeau+Infant:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 55%;
+    box-shadow: 0 0 8px red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+.container-close{
+    visibility: hidden;
+}
+
+.container h1 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+#items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#card {
+    border: 1px solid white;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 30px 20px;
+    border-radius: 5px;
+    width: 120px;
+    height: auto;
+}
+
+#card h2 {
+    margin: 15px 0px;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+#card p {
+    background-color: rgb(246, 246, 100);
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 0px 0px 5px 5px;
+}
